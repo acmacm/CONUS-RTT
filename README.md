@@ -36,7 +36,7 @@ a total of 9036 measurements (only 689 described above are plotted).
 I reproduced some of Brian's analysis in a spread sheet, 
 and made a plot that’s similar to Brian's Figure 3.
 
-URL.pdf
+https://github.com/acmacm/CONUS-RTT/blob/master/RTT_Location_UPS_BE.pdf
 
 The blue points are the measured RTT/2, and the green line
 is the Great Circle Route RTT/2 delay using the same constants
@@ -50,8 +50,11 @@ of the measurement devices in backbone nodes (no access links),
 and the small delay variation over ~280 packets 
 (queue and some processing times vary). 
 
-I also examined the implications of these errors on a map. IIRC, 
-DKG indicated that localization to a state would be enough 
+I also examined the implications of these errors on a map. 
+
+(page 2 of https://github.com/acmacm/CONUS-RTT/blob/master/RTT_Location_UPS_BE.pdf  )
+
+IIRC, DKG indicated that localization to a state would be enough 
 for some purposes. It turns-out that 3ms or 300km error 
 is enough error to make most US state locations ambiguous (which is 
 the lion’s share of these single measurement errors, >85%), but 1ms or 100km
